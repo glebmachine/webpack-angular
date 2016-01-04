@@ -1,5 +1,5 @@
 # webpack-angular
-Homemade template for angular application, based on webpack
+homemade template for angular application, based on webpack
 
 
 ## Features:
