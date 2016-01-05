@@ -2,9 +2,6 @@
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-
-console.log(NODE_ENV);
 
 module.exports = {
 
@@ -39,7 +36,6 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       name: 'common',
     }),
-    new ExtractTextPlugin('[name].css', {allChunks: true}),
   ],
 
   // loaders
@@ -51,7 +47,7 @@ module.exports = {
         loader:  'ng-annotate!babel?presets[]=es2015',
       }, {
         test:   /\.sass$/,
-        loader: ExtractTextPlugin.extract('style', 'css!sass?indentedSyntax'),
+        loader: 'style!css!sass?indentedSyntax&sourceMap',
       }, {
         test:   /\.jade$/,
         loader: 'raw!jade-html',

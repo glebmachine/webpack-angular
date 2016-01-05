@@ -1,11 +1,11 @@
-webpackJsonp([1,4],{
+webpackJsonp([1,5],{
 
-/***/ 13:
+/***/ 10:
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"index\"><h1>Test</h1><h2>{{ title }}</h2><p>{{ subtitle }}</p></div>"
+	module.exports = "<div class=\"index\"><h1>{{ title }}</h1><p>{{ subtitle }}</p></div>"
 
 /***/ }
 
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMS4xLmpzIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vaW5kZXgvaW5kZXguamFkZSJdLCJzb3VyY2VzQ29udGVudCI6WyJtb2R1bGUuZXhwb3J0cyA9IFwiPGRpdiBjbGFzcz1cXFwiaW5kZXhcXFwiPjxoMT5UZXN0PC9oMT48aDI+e3sgdGl0bGUgfX08L2gyPjxwPnt7IHN1YnRpdGxlIH19PC9wPjwvZGl2PlwiXG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL2luZGV4L2luZGV4LmphZGVcbiAqKiBtb2R1bGUgaWQgPSAxM1xuICoqIG1vZHVsZSBjaHVua3MgPSAxXG4gKiovIl0sIm1hcHBpbmdzIjoiOzs7OztBQUFBOzs7OyIsInNvdXJjZVJvb3QiOiIifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9pbmRleC9pbmRleC5qYWRlIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsOENBQTZDLFNBQVMsVUFBVSxZQUFZLFciLCJmaWxlIjoiMS4xLmpzIiwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSBcIjxkaXYgY2xhc3M9XFxcImluZGV4XFxcIj48aDE+e3sgdGl0bGUgfX08L2gxPjxwPnt7IHN1YnRpdGxlIH19PC9wPjwvZGl2PlwiXG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL2luZGV4L2luZGV4LmphZGVcbiAqKiBtb2R1bGUgaWQgPSAxMFxuICoqIG1vZHVsZSBjaHVua3MgPSAxXG4gKiovIl0sInNvdXJjZVJvb3QiOiIifQ==

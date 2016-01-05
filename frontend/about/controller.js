@@ -1,8 +1,8 @@
 import './index.sass';
 
-module.exports = function($scope) {
+module.exports = ($scope) => {
   'ngInject';
 
-  $scope.title = 'Angular webpack!';
+  $scope.title = 'About angular webpack!';
   $scope.subtitle = 'Don\'t try this at home';
 };

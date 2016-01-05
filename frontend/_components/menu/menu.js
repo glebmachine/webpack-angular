@@ -1,16 +1,16 @@
+import './menu.sass';
 
-module.exports = function(app){
+module.exports = function(app) {
 
-  app.directive('menu', function(){
-    require('./menu.sass');
+  app.directive('menu', () => {
 
     return {
-      restrict : 'E',
-      scope : {},
-      template : require('./menu.jade'),
-      controller : function(){
-        "ngInject";
-      }
+      restrict: 'E',
+      scope: {},
+      template: require('./menu.jade'),
+      controller: () => {
+        'ngInject';
+      },
     };
   });
 };
